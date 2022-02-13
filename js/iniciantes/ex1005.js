@@ -3,8 +3,6 @@ var lines = input.split('\n').map(item => parseFloat(item));
 
 const A = lines.shift();
 const B = lines.shift();
-console.log(A*3.5)
-console.log(B*7.5)
 const media = (((A * 3.5) + (B * 7.5)) / 11);
 
 console.log("MEDIA =",media.toFixed(5));
